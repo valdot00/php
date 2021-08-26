@@ -16,9 +16,9 @@ echo $nombre,$numero;
 
 //echo $numero;
 
-echo "hola, $nombre";#comillas dobles
-
-echo 'hola,'.$nombre;#comillas sencillas
+echo "hola, $nombre";#comillas dobles. NOTA: te podria causar problemas de seguridad
+                                    // es mejor comillas sencillas 
+echo 'hola, ' . $nombre;#comillas sencillas
 
 echo gettype($nombre);#tipo de dato gettype();
 
